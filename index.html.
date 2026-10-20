@@ -107,23 +107,28 @@
       PERSONAL SPACE — 2026
     </p>
 
-    <nav class="links">
-      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
-        INSTAGRAM <span>↗</span>
-      </a>
+ 
+<nav class="links">
+  <a href="https://www.instagram.com/ivanverkhavets/"
+     target="_blank" rel="noopener noreferrer">
+    INSTAGRAM <span>↗</span>
+  </a>
 
-      <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">
-        TIKTOK <span>↗</span>
-      </a>
+  <a href="https://www.tiktok.com/@vany_verh"
+     target="_blank" rel="noopener noreferrer">
+    TIKTOK <span>↗</span>
+  </a>
 
-      <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer">
-        YOUTUBE <span>↗</span>
-      </a>
+  <a href="https://youtube.com/"
+     target="_blank" rel="noopener noreferrer">
+    YOUTUBE <span>↗</span>
+  </a>
 
-      <a href="mailto:hello@example.com">
-        CONTACT <span>↗</span>
-      </a>
-    </nav>
+  <a href="mailto:hello@example.com">
+    CONTACT <span>↗</span>
+  </a>
+</nav>
+
 
     <footer>© IVAN VERH 2026</footer>
   </main>
