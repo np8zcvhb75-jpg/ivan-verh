@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IVAN VERH</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+      padding: 28px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #999;
+    }
+
+    main {
+      max-width: 520px;
+      margin: 100px auto 60px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 12vw, 76px);
+      letter-spacing: -4px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .subtitle {
+      color: #888;
+      font-size: 11px;
+      letter-spacing: 3px;
+      margin-top: 18px;
+      margin-bottom: 45px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .links a {
+      color: white;
+      text-decoration: none;
+      border-top: 1px solid #383838;
+      padding: 22px 0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      letter-spacing: 2px;
+      transition: color 0.25s;
+    }
+
+    .links a:last-child {
+      border-bottom: 1px solid #383838;
+    }
+
+    .links a:hover {
+      color: #888;
+    }
+
+    footer {
+      margin-top: 65px;
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: #666;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 22px;
+      }
+
+      main {
+        margin-top: 120px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <span>IV / V</span>
+    <span>TOKYO, JAPAN</span>
+  </header>
+
+  <main>
+    <h1>IVAN<br>VERH.</h1>
+
+    <p class="subtitle">
+      PERSONAL SPACE — 2026
+    </p>
+
+    <nav class="links">
+      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+        INSTAGRAM <span>↗</span>
+      </a>
+
+      <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">
+        TIKTOK <span>↗</span>
+      </a>
+
+      <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer">
+        YOUTUBE <span>↗</span>
+      </a>
+
+      <a href="mailto:hello@example.com">
+        CONTACT <span>↗</span>
+      </a>
+    </nav>
+
+    <footer>© IVAN VERH 2026</footer>
+  </main>
+</body>
+</html>
